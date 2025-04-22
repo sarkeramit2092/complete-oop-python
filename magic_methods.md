@@ -66,5 +66,7 @@ world = World()
 
 - different objects, different self.
 - Je object er sathe currently kaj hy; setay self.
-- in class methods and attributes amra self diyei access kori, like: self.pin & self.balance. Like: "def deposit(self):" and "def withdraw(self):"
+- in class methods and attributes amra self diyei access kori; object/self chara eigulo access kora jay na, like: self.pin & self.balance. Like: "def deposit(self):" and "def withdraw(self):".
+
+
 
