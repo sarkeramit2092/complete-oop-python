@@ -100,3 +100,36 @@ brac.get_pin()
  ![set_pin](image-7.png)
 
  - This whole idea is called Encapsulation!!
+
+# Class Diagram
+
+![class diagram](image-8.png)
+
+This is a class diagram for a Python class named Atm. Class diagrams are a part of UML (Unified Modeling Language) used in object-oriented programming to visually represent the structure of a class — including its attributes (data) and methods (functions).
+
+- Here's a breakdown of the diagram:
+
+# Class Name:
+Atm
+
+# Attributes (fields):
+- pin → Private attribute for storing the PIN.
+
+- balance → Private attribute for storing the account balance.
+
+(Private attributes are denoted with a minus - sign.)
+
+# Methods (functions):
+- __init__() → Private constructor used to initialize an object (though typically constructors are public in Python).
+
+- menu → A private method to display or handle a menu (possibly to interact with the ATM).
+
++ change_pin() → Public method to change the ATM PIN.
+
++ deposit() → Public method to deposit money.
+
++ with() → Public method to withdraw money.
+
++ check_bal() → Public method to check the account balance.
+
+(Public methods are denoted with a plus + sign.)
