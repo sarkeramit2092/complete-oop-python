@@ -71,3 +71,32 @@ self.__balance = 0
 ![nothing_private](image-6.png)
 
  - __pin : Encapsulation is a gentalmen agreement.
+
+
+ # Getter and Setter
+
+ - get and set are commonly used in class to access those private datas and methods.
+
+ ```python
+
+def get_pin(self):
+    return self.__pin
+
+def set_pin(self, new_pin):
+    self.__pin = new_pin
+    print("Pin Changed!!)
+
+ ```
+
+ ```python
+
+brac = Atm()
+brac.get_pin()
+brac.set_pin("22543")
+brac.get_pin()
+
+ ```
+
+ ![set_pin](image-7.png)
+
+ - This whole idea is called Encapsulation!!
